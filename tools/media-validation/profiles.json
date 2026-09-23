@@ -1,0 +1,38 @@
+[
+  {
+    "id": "saving",
+    "label": "절약",
+    "rank": 1,
+    "limits": {
+      "totalMedia": 5,
+      "videos": 1,
+      "longestVideoSeconds": 30,
+      "totalVideoSeconds": 30,
+      "totalInputBytes": 157286400
+    }
+  },
+  {
+    "id": "balanced",
+    "label": "균형",
+    "rank": 2,
+    "limits": {
+      "totalMedia": 10,
+      "videos": 3,
+      "longestVideoSeconds": 30,
+      "totalVideoSeconds": 60,
+      "totalInputBytes": 314572800
+    }
+  },
+  {
+    "id": "expanded",
+    "label": "확장",
+    "rank": 3,
+    "limits": {
+      "totalMedia": 20,
+      "videos": 5,
+      "longestVideoSeconds": 60,
+      "totalVideoSeconds": 180,
+      "totalInputBytes": 1073741824
+    }
+  }
+]

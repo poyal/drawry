@@ -1,0 +1,13 @@
+{
+  "name": "drawry-media-validation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "evaluate": "node src/evaluate.mjs reports",
+    "new-report": "node src/new-report.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACC30A6CBE339E94FF0F3B8 /* DrawryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0037356B3EEBBB399F5CA8B /* DrawryApp.swift */; };
+		10B1726C9CC54236915297F6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9DE77E39CD05E412CC59790A /* PrivacyInfo.xcprivacy */; };
+		151F1000C6C323B7A61EDF9F /* NanumPenScript-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1374DBE95933AE8DAF0CF97C /* NanumPenScript-OFL.txt */; };
+		155844DE45DFBD5442AB2A96 /* PhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6043583FA16187DC7B66E6 /* PhotoViewer.swift */; };
+		51C46F3E10806F9D2D1FC0ED /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF4247C37B5AEF2064D661 /* AppModel.swift */; };
+		52A415F6E1080181863AD174 /* SQLCipher in Frameworks */ = {isa = PBXBuildFile; productRef = CF176D5BE494F7DDB41E2BF9 /* SQLCipher */; };
+		5ACA0080669067A663970E76 /* SketchDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637F12F0B59C4FE8DEB69EC /* SketchDesign.swift */; };
+		64A82956201BC9702F25EABE /* InkCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92D036C476E619162C4C3B /* InkCanvasView.swift */; };
+		693DE58F33BF7BF59F3FF1F4 /* PlatformViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038ECC7A229886F763CC515E /* PlatformViews.swift */; };
+		8A973D5A5D079C29050AF133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2E1F5242AAA49EAAE0C5AF /* Assets.xcassets */; };
+		8EDBBAF346CC9DDCF2DACFC2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552928967252775E0EC7A3C /* SettingsView.swift */; };
+		9A522D68759ED8A156DB3BBA /* Apache-2.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 160F9D33CE1493AAFB8344F3 /* Apache-2.0.txt */; };
+		9AB9BD41D34F195068840262 /* SQLCipher.txt in Resources */ = {isa = PBXBuildFile; fileRef = 853A8F20659904975393A03C /* SQLCipher.txt */; };
+		C5731B32A38953F4C20517B1 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3447EF24CD4FD97A98EF72 /* EditorView.swift */; };
+		CFF07EB973DAA0D4852680E7 /* DrawryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B898DD245FB5407B3C18E86 /* DrawryUITests.swift */; };
+		D680A88E0616DE5045526E8C /* InkDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C6C42CF01F741C991D008 /* InkDrawing.swift */; };
+		E138A06BDD33A13B83373D61 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6747B76BE5840A748069611 /* Storage.swift */; };
+		E9D6B9773AE15B41DA5A1A9D /* MediaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB64D1C171B7C8633921B2F /* MediaStore.swift */; };
+		EF7FF40E20A1A339F0289B27 /* DrawryCore in Frameworks */ = {isa = PBXBuildFile; productRef = 36904B0F729D49DEA95752CD /* DrawryCore */; };
+		F490FF373F9136CF0C25193F /* NanumPenScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17743C44B91BDBC520610F19 /* NanumPenScript-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0090234D06092A2B92769CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B86BE99D8C55FC964405AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7889B965C68AF5A5A532B00A;
+			remoteInfo = Drawry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038ECC7A229886F763CC515E /* PlatformViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformViews.swift; sourceTree = "<group>"; };
+		0B898DD245FB5407B3C18E86 /* DrawryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawryUITests.swift; sourceTree = "<group>"; };
+		1374DBE95933AE8DAF0CF97C /* NanumPenScript-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "NanumPenScript-OFL.txt"; sourceTree = "<group>"; };
+		160F9D33CE1493AAFB8344F3 /* Apache-2.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Apache-2.0.txt"; sourceTree = "<group>"; };
+		17743C44B91BDBC520610F19 /* NanumPenScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumPenScript-Regular.ttf"; sourceTree = "<group>"; };
+		2F6043583FA16187DC7B66E6 /* PhotoViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewer.swift; sourceTree = "<group>"; };
+		3C3447EF24CD4FD97A98EF72 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		4552928967252775E0EC7A3C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		46354E278FF88700AAC9DC7D /* Drawry.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Drawry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF4247C37B5AEF2064D661 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		5A0C6C42CF01F741C991D008 /* InkDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkDrawing.swift; sourceTree = "<group>"; };
+		6E92D036C476E619162C4C3B /* InkCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkCanvasView.swift; sourceTree = "<group>"; };
+		853A8F20659904975393A03C /* SQLCipher.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SQLCipher.txt; sourceTree = "<group>"; };
+		9B2E1F5242AAA49EAAE0C5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DE77E39CD05E412CC59790A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A6747B76BE5840A748069611 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		ADAB29D9892FDC7FACF5FD04 /* DrawryUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DrawryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0037356B3EEBBB399F5CA8B /* DrawryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawryApp.swift; sourceTree = "<group>"; };
+		BCB64D1C171B7C8633921B2F /* MediaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaStore.swift; sourceTree = "<group>"; };
+		DE7F977E0EAF5F9A42A1830B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F575C842D9B35FA1A0FB10CE /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = .; sourceTree = SOURCE_ROOT; };
+		F637F12F0B59C4FE8DEB69EC /* SketchDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchDesign.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99E92EFD3533366C24572F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7FF40E20A1A339F0289B27 /* DrawryCore in Frameworks */,
+				52A415F6E1080181863AD174 /* SQLCipher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079B37C10A789EDA037E79E6 /* licenses */ = {
+			isa = PBXGroup;
+			children = (
+				160F9D33CE1493AAFB8344F3 /* Apache-2.0.txt */,
+				1374DBE95933AE8DAF0CF97C /* NanumPenScript-OFL.txt */,
+				853A8F20659904975393A03C /* SQLCipher.txt */,
+			);
+			name = licenses;
+			path = ../shared/licenses;
+			sourceTree = "<group>";
+		};
+		342C5343C1106F1EA5293864 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B898DD245FB5407B3C18E86 /* DrawryUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		47D17CC6ABD412D3983DF8C0 = {
+			isa = PBXGroup;
+			children = (
+				A576E8DE0CCC9E6AB3B1FC0A /* App */,
+				DF1E419C8DE523A04E941B85 /* fonts */,
+				079B37C10A789EDA037E79E6 /* licenses */,
+				59A88292ACE71D2FE691F71F /* Packages */,
+				91CE4BE314E929FD125B5EFD /* Runner */,
+				342C5343C1106F1EA5293864 /* UITests */,
+				C3391BC2E623073BBB69B106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A88292ACE71D2FE691F71F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F575C842D9B35FA1A0FB10CE /* ios */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		91CE4BE314E929FD125B5EFD /* Runner */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E1F5242AAA49EAAE0C5AF /* Assets.xcassets */,
+			);
+			path = Runner;
+			sourceTree = "<group>";
+		};
+		A576E8DE0CCC9E6AB3B1FC0A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				59BF4247C37B5AEF2064D661 /* AppModel.swift */,
+				B0037356B3EEBBB399F5CA8B /* DrawryApp.swift */,
+				3C3447EF24CD4FD97A98EF72 /* EditorView.swift */,
+				DE7F977E0EAF5F9A42A1830B /* Info.plist */,
+				6E92D036C476E619162C4C3B /* InkCanvasView.swift */,
+				5A0C6C42CF01F741C991D008 /* InkDrawing.swift */,
+				BCB64D1C171B7C8633921B2F /* MediaStore.swift */,
+				2F6043583FA16187DC7B66E6 /* PhotoViewer.swift */,
+				038ECC7A229886F763CC515E /* PlatformViews.swift */,
+				9DE77E39CD05E412CC59790A /* PrivacyInfo.xcprivacy */,
+				4552928967252775E0EC7A3C /* SettingsView.swift */,
+				F637F12F0B59C4FE8DEB69EC /* SketchDesign.swift */,
+				A6747B76BE5840A748069611 /* Storage.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C3391BC2E623073BBB69B106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46354E278FF88700AAC9DC7D /* Drawry.app */,
+				ADAB29D9892FDC7FACF5FD04 /* DrawryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1E419C8DE523A04E941B85 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				17743C44B91BDBC520610F19 /* NanumPenScript-Regular.ttf */,
+			);
+			name = fonts;
+			path = ../shared/fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7889B965C68AF5A5A532B00A /* Drawry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B201F3DB1A07C3F681302FAF /* Build configuration list for PBXNativeTarget "Drawry" */;
+			buildPhases = (
+				0B92057226967DE05B8DE5F5 /* Sources */,
+				E734CF00A62EB4E068BF3BF4 /* Resources */,
+				E99E92EFD3533366C24572F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawry;
+			packageProductDependencies = (
+				36904B0F729D49DEA95752CD /* DrawryCore */,
+				CF176D5BE494F7DDB41E2BF9 /* SQLCipher */,
+			);
+			productName = Drawry;
+			productReference = 46354E278FF88700AAC9DC7D /* Drawry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B41E9D99ECEBA83CCB49345E /* DrawryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9CD07D1F823CEFC1431EF5 /* Build configuration list for PBXNativeTarget "DrawryUITests" */;
+			buildPhases = (
+				CAF7C302B292ECE51DF426CC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35645B183FA65298FA674FA7 /* PBXTargetDependency */,
+			);
+			name = DrawryUITests;
+			packageProductDependencies = (
+			);
+			productName = DrawryUITests;
+			productReference = ADAB29D9892FDC7FACF5FD04 /* DrawryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B86BE99D8C55FC964405AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7889B965C68AF5A5A532B00A = {
+						ProvisioningStyle = Automatic;
+					};
+					B41E9D99ECEBA83CCB49345E = {
+						TestTargetID = 7889B965C68AF5A5A532B00A;
+					};
+				};
+			};
+			buildConfigurationList = B9BB02354D64F71606F5AE76 /* Build configuration list for PBXProject "Drawry" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ko,
+			);
+			mainGroup = 47D17CC6ABD412D3983DF8C0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9014BBB0F1C369F1474B1DFE /* XCRemoteSwiftPackageReference "SQLCipher.swift" */,
+				75B40EA81019D1925D7AA482 /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7889B965C68AF5A5A532B00A /* Drawry */,
+				B41E9D99ECEBA83CCB49345E /* DrawryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E734CF00A62EB4E068BF3BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A522D68759ED8A156DB3BBA /* Apache-2.0.txt in Resources */,
+				8A973D5A5D079C29050AF133 /* Assets.xcassets in Resources */,
+				151F1000C6C323B7A61EDF9F /* NanumPenScript-OFL.txt in Resources */,
+				F490FF373F9136CF0C25193F /* NanumPenScript-Regular.ttf in Resources */,
+				10B1726C9CC54236915297F6 /* PrivacyInfo.xcprivacy in Resources */,
+				9AB9BD41D34F195068840262 /* SQLCipher.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B92057226967DE05B8DE5F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C46F3E10806F9D2D1FC0ED /* AppModel.swift in Sources */,
+				0ACC30A6CBE339E94FF0F3B8 /* DrawryApp.swift in Sources */,
+				C5731B32A38953F4C20517B1 /* EditorView.swift in Sources */,
+				64A82956201BC9702F25EABE /* InkCanvasView.swift in Sources */,
+				D680A88E0616DE5045526E8C /* InkDrawing.swift in Sources */,
+				E9D6B9773AE15B41DA5A1A9D /* MediaStore.swift in Sources */,
+				155844DE45DFBD5442AB2A96 /* PhotoViewer.swift in Sources */,
+				693DE58F33BF7BF59F3FF1F4 /* PlatformViews.swift in Sources */,
+				8EDBBAF346CC9DDCF2DACFC2 /* SettingsView.swift in Sources */,
+				5ACA0080669067A663970E76 /* SketchDesign.swift in Sources */,
+				E138A06BDD33A13B83373D61 /* Storage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF7C302B292ECE51DF426CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF07EB973DAA0D4852680E7 /* DrawryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35645B183FA65298FA674FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7889B965C68AF5A5A532B00A /* Drawry */;
+			targetProxy = 0090234D06092A2B92769CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00F2D46B362C83E3EB5A6B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poyal.DrawryUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Drawry;
+			};
+			name = Debug;
+		};
+		53AB0EA7A97D39E573993220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poyal.drawry;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BAE6960971FB4A9CBC1B995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poyal.DrawryUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Drawry;
+			};
+			name = Release;
+		};
+		A498B6282B57C6844A8803F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SQLITE_HAS_CODEC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F14650A7B51C74329E7596AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SQLITE_HAS_CODEC=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4A5822631CD7B9F2D5C576A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poyal.drawry;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9CD07D1F823CEFC1431EF5 /* Build configuration list for PBXNativeTarget "DrawryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F2D46B362C83E3EB5A6B08 /* Debug */,
+				5BAE6960971FB4A9CBC1B995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B201F3DB1A07C3F681302FAF /* Build configuration list for PBXNativeTarget "Drawry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A5822631CD7B9F2D5C576A /* Debug */,
+				53AB0EA7A97D39E573993220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9BB02354D64F71606F5AE76 /* Build configuration list for PBXProject "Drawry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A498B6282B57C6844A8803F0 /* Debug */,
+				F14650A7B51C74329E7596AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		75B40EA81019D1925D7AA482 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9014BBB0F1C369F1474B1DFE /* XCRemoteSwiftPackageReference "SQLCipher.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sqlcipher/SQLCipher.swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36904B0F729D49DEA95752CD /* DrawryCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DrawryCore;
+		};
+		CF176D5BE494F7DDB41E2BF9 /* SQLCipher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9014BBB0F1C369F1474B1DFE /* XCRemoteSwiftPackageReference "SQLCipher.swift" */;
+			productName = SQLCipher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B9B86BE99D8C55FC964405AC /* Project object */;
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Independent Node.js crypto vector; test-only keys",
+  "password": "테스트 암호1234",
+  "salt": "AAECAwQFBgcICQoLDA0ODw==",
+  "derivedKey": "FLprBo6Z1bduCcghmoyqMvBxqgVPanjLCjit7lUJttU=",
+  "mediaKey": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "context": "fixture.media",
+  "plaintext": "RHJhd3J5IPCfjLg=",
+  "encrypted": "RFJZMgBAAAAAAAAAAAAACwECAwQFBgcIzm1Px/9u1ZsTRGyYrsRox5HDzlild3I/3M1AUSP5cleGOJduEWXsTH/gsQ=="
+}
